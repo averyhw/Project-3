@@ -1,0 +1,67 @@
+.header-wide{
+  width: 100%;
+  height: auto;
+}
+.headline{
+  font-family: 'Rozha One', serif;
+  width: 70%;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+.pencil{
+  margin-left: 70px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+a{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+.line{
+  margin: 10px;
+  width: 80%;
+  height: auto;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+.byline1{
+  margin-left: 70px;
+  margin-top: 0px;
+}
+.byline2{
+  margin-left: 70px;
+  margin-top: 0px;
+  color: gray;
+}
+.data-table{
+  background-color: #f9dac5;
+}
+.tweet-share{
+  height: 40px;
+  width: auto;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+.paragraph{
+  margin-left: 70px;
+  width: 80%;
+  font-family: 'Sumana', serif;
+  font-size: 14pt;
+}
+.chart{
+    height:400px;
+    width: 80%;
+    margin: 50px;
+    margin-left: 70px;
+}
+.half-chart{
+  height:200px;
+  width:auto;
+  margin: auto;
+}
