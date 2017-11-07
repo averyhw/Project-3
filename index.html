@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Prescription Drug Use in NC</title>
+  <title>Orange County Performing Above Average</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" href="css/c3.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+
 
   <!--Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -37,33 +38,42 @@
   </div><!--/container-fluid-->
 
   <div class="container">
-    <div class="row">
 
+    <div class="row">
+      <div class="row">
       <div class="col-md-12">
-        <h1 class="headline">Orange County High Schools are performing better than average in North Carolina</h1>
+        <p class="byline1 local"><a href=#><strong>Local</strong></a></p>
+        <h1 class="headline1 col-xs-12 col-sm-12 col-md-10 col-lg-10">Orange County High Schools are performing better than average in North Carolina</h1>
         <img class="line" src="line.png">
-        <p class="byline1"><strong>By <a href="http://www.averyhwilliams.com/" target="_blank">Avery Williams</a></strong></p>
-        <p class="byline2">Nov 6, 2017, 8:10pm EDT</p>
+        <p class="byline1"><img class="headshot" src="headshot.png">
+          <strong>By <a href="http://www.averyhwilliams.com/" target="_blank">Avery Williams</a></strong> Nov 6, 2017, 8:10pm EDT
+        <a href="http://www.averyhwilliams.com/contact-me/" target="_blank"><img class="envelope" src="envelope.png"></a></p>
       </div>
       <!--<div><a href=#><img class="tweet-share" src="tweet-share.png"></a></div>-->
-      <div><img class="pencil col-md-5" src="pencil.png"></div><!--https://pixabay.com/p-986769/?no_redirect-->
+      <div><fig><img class="pencil col-xs-12 col-sm-12 col-md-6" src="pencil.png">
+        <figcaption class="caption"><em>Standardized tests are one of the main factors considered in college acceptance.</em></figcaption></fig></div><!--https://pixabay.com/p-986769/?no_redirect-->
     </div><!--/row-->
 
-    <div class="row">
-      <p class="paragraph col-md-8">ORANGE COUNTY, North Carolina — The ACT is one of the main standardized tests used in college entrance applications. Many high schoolers must go through the stressful process of completing this test to the best of their ability, determining where they will attend college. The average scores of each high school say a lot about its funding, teachers, students and overall educational experience. <br/><br/>When looking at the data from Orange County compared to the rest of the state of North Carolina, it is clear that Orange County is doing something right. <br/><br/>The county performs higher in every aspect than the average North Carolina high school. This does not make them the best high school in the state, but speaks to the programs offered in the county.</p>
+
+    <div class="row col-md-10">
+      <p class="paragraph">ORANGE COUNTY, North Carolina — The ACT is one of the main standardized tests used in college entrance applications. Many high schoolers must go through the stressful process of completing this test to the best of their ability, determining where they will attend college. The average scores of each high school say a lot about its funding, teachers, students and overall educational experience. <br/><br/>When looking at the data from Orange County compared to the rest of the state of North Carolina, it is clear that Orange County is doing something right. <br/><br/>The county performs higher in every aspect than the average North Carolina high school, according to the <a href="https://opendurham.nc.gov/explore/dataset/north-carolina-school-performance-data/export/" target="_blank">Durham chapter of Open Data Soft</a>. This data set looks at ACT scores of North Carolina, Orange County and specifically Cedar Ridge High School and Orange High School. Some schools were not included in the data.
+        <br/><br/>This does not make them the best high schools in the state, but speaks to the programs offered in the county.</p>
+    </div><!--/row-->
     </div><!--/row-->
 
     <!--CHARTS-->
     <div class="row">
       <div class="row col-md-10">
         <h3 class="headline">Graduation Rates and Composite Scores Meeting the UNC Requirements</h3>
+        <p class="paragraph">Hover over or tap each component to learn about the individual data.</p>
         <div id="chart" class="chart col-md-10">chart</div>
-        <p class="paragraph">It seems Orange County is performing above average for the 2016-2017 school year compared to the rest of North Carolina.<br/><br/>Here will be more info about this graph and why it's so awesome. The sentences will be a little long to make this all seem like a real article. This sentence is to know what it takes to make it two lines.</p>
+        <p class="paragraph">It seems Orange County is performing above average for the 2016-2017 school year compared to the rest of North Carolina.<br/><br/>
+          The graduation rates are calculated on a four-year plan, highlighting that Orange County has a higher graduation rate than the average North Carolina high school. Higher graduation rates tend to correlate with participation in higher education and higher employment rates.</p>
       </div>
 
       <div class="row col-md-10">
         <h3 class="headline">Composite Scores Meeting the UNC Requirements</h3>
-        <p class="paragraph">The composite ACT scores are made up of the average scores of the reading, writing, science, math and english sections of the standardized test. Most schools accept the highest composite score, but some, like UNC, will accept a student's superscore, or composite of all the composites, guarunteeing the highest outcome for the applicant.</p>
+        <p class="paragraph">The composite ACT scores are made up of the average scores of the reading, writing, science, math and english sections of the standardized test. Most schools accept the highest composite score, but some, like UNC, will accept a student's superscore, or composite of all the composites, guarunteeing the highest outcome for the applicant.<br/><br/>Hover over or tap each component to learn about the individual data, comprising of data of females and males meeting UNC's requirements for the ACT rather than not meeting the requirements.</p>
         <div id="pie-chart" class="half-chart col-xs-12 col-sm-12 col-md-3"></div>
         <div id="pie-chart-2" class="half-chart col-xs-12 col-sm-12 col-md-3"></div>
         <div id="pie-chart-3" class="half-chart col-xs-12 col-sm-12 col-md-3"></div>
@@ -72,16 +82,18 @@
 
       <div class="row col-md-10">
         <h3 class="headline">Breakdown of the Scores</h3>
-        <p class="paragraph">English is the highest score on average and in each school, while subjects like writing and science are the lowest.</p>
+        <p class="paragraph">English is the highest score on average and in each school, while subjects like writing and science are the lowest.<br/><br/>Hover over or tap each component to learn about the individual data.</p>
+
         <div id="chart-2" class="chart col-md-10">chart</div>
       </div>
 
     </div><!--/row-->
 
       <img class="line" src="line.png">
-      <p class="paragraph"><br/><br/>Need more information? Look at the data table below of all data used in this article:<br/><br/></p>
+      <h3 class="headline">Data Set</h3>
+      <p class="paragraph">Need more information? Look at the data table below of all data used in this article:<br/><br/></p>
 
-      <table id="example" class="display col-md-12 data-table" cellspacing="0" width="80%" margin="auto">
+      <table id="example" class="display col-md-8 data-table" cellspacing="0" width="80%" margin="auto">
             <thead>
                 <tr>
                   <th>District Name</th>
@@ -112,13 +124,17 @@
             </tfoot>
 
         </table>
-</div><!--/row-->
+<img class="line" src="line.png">
+    <footer>
+      <p class="paragraph">Data used in this article was taken from<a href="https://opendurham.nc.gov/explore/dataset/north-carolina-school-performance-data/export/" target="_blank"> the Durham chapter of Open Data Soft</a>.</p>
+    </footer>
 </div><!--/container-->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
   <script src="js/d3.min.js"></script>
+  <script src="js/c3.js"></script>
   <script src="js/c3.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
