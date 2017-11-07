@@ -1,0 +1,107 @@
+/*OVERALL*/
+a{
+  color: #1e57a2;
+  text-decoration: underline;
+}
+a:visited{
+  color: #1e57a2;
+  text-decoration: underline;
+}
+
+/*HEADER*/
+.local{
+  margin-bottom: 0px;
+}
+.header-wide{
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.headline1{
+  font-family: 'Rozha One', serif;
+  width: 70%;
+  margin-left: 3%;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.headline{
+  font-family: 'Rozha One', serif;
+  width: 70%;
+  margin-left: 5%;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.headshot{
+  height: 40px;
+  width: auto;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.byline1{
+  margin-left: 5%;
+  margin-top: 0px;
+  color: gray;
+}
+.byline2{
+  margin-left: 5%;
+  margin-top: 0px;
+  color: gray;
+}
+.envelope{
+  height: 20px;
+  width: auto;
+  margin: 5px;
+}
+.pencil{
+  margin-left: 5%;
+  margin-bottom: 5px;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.caption{
+  color: gray;
+  font-family: 'Sumana', serif;
+  font-size: 10pt;
+  margin-left: 7%;
+  margin-bottom: 10px;
+}
+.line{
+  margin: 10px;
+  width: 80%;
+  height: auto;
+}
+
+/*TEXT*/
+.paragraph{
+  margin-left: 5%;
+  width: 100%;
+  font-family: 'Sumana', serif;
+  font-size: 14pt;
+}
+
+/*CHARTS AND DATA TABLE*/
+.chart{
+    height:400px;
+    width: 80%;
+    margin: 50px;
+    margin-left: 5%;
+}
+.half-chart{
+  height:180px;
+  width: auto;
+  margin: auto;
+  margin-top: 40px;
+}
+.data-table{
+  background-color: #bcbcbc;
+  width: 100%;
+  height: auto;
+}
+.data-table2{
+  width: 100%;
+  height: auto;
+}
